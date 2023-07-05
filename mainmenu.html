@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--CSS FILE LINK-->
+        <link rel="stylesheet" href="mainmenu.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+    </head>
+    <body>
+        <!--NAVBAR HTML CSS-->
+        <header> 
+            <a href="#" class="logo">Gen's Comp</a>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" style="color: black;">☰</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="mainmenu.html">Home</a></li>
+                    <li><a href="#">Menu ⌵</a>
+                    <ul>
+                        <li><a href="#">Mouse ⌵</a>
+                        <ul>
+                            <li><a href="Mouse Wired.html">Wired</a></li>
+                            <li><a href="Wireless Mouse.html">Wireless</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Headset ⌵</a>
+                            <ul>
+                            <li><a href="Headset Wired.html">Wired</a></li>
+                            <li><a href="Headset Wireless.html">Wireless</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Keyboard ⌵</a>
+                            <ul>
+                            <li><a href="Keyboard Wired.html">Wired</a></li>
+                            <li><a href="Keyboard Wireless.html">Wireless</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Help.html">FAQs</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 style="text-align: center; color: aliceblue;  font-family: Arial, Helvetica, sans-serif;">Selamat Datang Di Web Kami</h1>
+        <!--SLIDER HTML CSS JS-->
+        <div class="sl">
+        <div class="slider">
+			<div class="slides">
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+				<div class="slide first">
+		<img src="mainmenuslider/8.jpg" alt="">
+	</div>
+	<div class="slide">
+		<img src="mainmenuslider/7.jpg" />
+	</div>
+	<div class="slide">
+		<img src="mainmenuslider/keyboard.jpeg" />
+	</div>
+	<div class="slide">
+		<img src="mainmenuslider/headphone.jpeg" />
+	</div>
+	<div class="navigation-auto">
+		<div class="auto-btn1"></div>
+		<div class="auto-btn2"></div>
+		<div class="auto-btn3"></div>
+		<div class="auto-btn4"></div>
+	</div>
+	</div>
+	<div class="navigation-manual">
+		<label for="radio1" class="manual-btn"></label>
+		<label for="radio2" class="manual-btn"></label>
+		<label for="radio3" class="manual-btn"></label>
+		<label for="radio4" class="manual-btn"></label>
+	</div>
+	<!--manual navigation end-->
+	</div>
+    </div>
+	<!--image slider end-->
+	<script type="text/javascript">
+		var counter=1;
+		setInterval(function(){
+			document.getElementById('radio' + counter).checked=true;
+			counter++;
+			if(counter > 4) {
+				counter = 1;
+			}
+		}, 5000);
+	</script>
+    <!--Description-->
+    <div class="description">
+    <p>Selamat datang di Website Kami :) <br>
+    Di web site kami menyediakan berbagai penilaian tentang alat alat gaming. Kami merekomendasikan berbagai alat alat gaming sesuai dengan penilaian kami. <br>
+    Penilaian penilaian pada website ini berdasar dengan penilaian pribadi, jadi jika ada penilaian yang tidak sesuai dengan para pembaca mohon di maklumi. <br>
+    Sekian Terima Kasih!
+    </p>
+    </div>
+    <br>
+    <br>
+    <!--Reccomendation-->
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Rekomendasi!</h1>
+    <div class="picture">
+        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Logitech G Pro XSuperlight</h2>
+        <a  target="_blank" href="Rekomendasi/Mouse 1.png">
+            <link> <a href="Wireless Mouse.html"><img src="Rekomendasi/Mouse 1.png" alt="Mouse" width="400" height="270"> </a>
+        </a>
+        <div class="desc">Rekomendasi Wireless Mouse Dari Kami!</div>
+    </div>
+    <div class="picture">
+        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Fantech MK858 Maxfit67</h2>
+        <a  target="_blank" href="Rekomendasi/Keyboard 1.png">
+            <link> <a href="Keyboard Wired.html"><img src="Rekomendasi/Keyboard 1.png" alt="keyboard" width="400" height="300"> </a>
+        </a>
+        <div class="desc">Rekomendasi Keyboard Dari Kami!</div>
+    </div>
+    <div class="picture">
+        <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">HyperX Cloud Alpha S</h2>
+        <a  target="_blank" href="Rekomendasi/Headset 2.png">
+            <link> <a href="Headset Wired.html"><img src="Rekomendasi/Headset 2.png" alt="keyboard" width="400" height="300"> </a>
+        </a>
+        <div class="desc">Rekomendasi Headset Dari Kami!</div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer-content">
+            <h3>Socials</h3>
+            <ul class="socials">
+                <li><a href="https://web.facebook.com/khaifathan.khaifathan.9"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://wa.me/+6282242280006"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/khaifathansophan/"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="mailto:sophanfathan@gmail.com?subject=default&body=Pesan%20"><i class="bi bi-envelope-at-fill"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023. designed by <span>Muhammad Khaifathan Sophan</span></p>
+        </div>
+    </footer>
+    </body>
+</html>
